@@ -51,7 +51,7 @@
         </a>
         <h1 id='h-backbonegiraffe'>Backbone.Giraffe</h1>
 <h2 id='h-introduction'>Introduction</h2>
-<p><a href="http://barc.github.io/backbone.giraffe"><strong>Backbone.Giraffe</strong></a>
+<p><a href="http://ryanatkn.github.io/backbone.giraffe"><strong>Backbone.Giraffe</strong></a>
 is a light and flexible library that extends
 <a href="http://documentcloud.github.com/backbone/"><strong>Backbone.js</strong></a> to new heights.
 <strong>Giraffe</strong>&#39;s goal is to follow the <strong>Backbone</strong> philosophy
@@ -79,8 +79,8 @@ in this functionality via <code>Giraffe.configure</code>.</p>
 </li>
 </ul>
 <h2 id='h-documentation'>Documentation</h2>
-<p>Read the <a href="http://barc.github.io/backbone.giraffe/backbone.giraffe.html"><strong>API docs</strong></a> and
-check out our <a href="http://barc.github.io/backbone.giraffe/viewBasics.html"><strong>live examples</strong></a>.</p>
+<p>Read the <a href="http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html"><strong>API docs</strong></a> and
+check out our <a href="http://ryanatkn.github.io/backbone.giraffe/viewBasics.html"><strong>live examples</strong></a>.</p>
 <h2 id='h-how-giraffe-is-different'>How Giraffe is Different</h2>
 <p><strong>Giraffe</strong> was created by the needs of our team as we built
 <a href="http://barc.com"><strong>Barc</strong></a>. We tried many existing libraries but some did way too
@@ -91,48 +91,48 @@ building upon <strong>Backbone</strong> with a minimalist approach. For example,
 concept of specialized containers like regions or layouts, as any view in
 <strong>Giraffe</strong> can act as a parent of one or more child views. <strong>Giraffe</strong> also
 has no CollectionView or ItemView
-(see <a href="http://barc.github.io/backbone.giraffe/collectionView.html"><strong>Giraffe.Contrib.CollectionView</strong></a>
-and <a href="http://barc.github.io/backbone.giraffe/fastCollectionView.html"><strong>Giraffe.Contrib.FastCollectionView</strong></a>),
+(see <a href="http://ryanatkn.github.io/backbone.giraffe/collectionView.html"><strong>Giraffe.Contrib.CollectionView</strong></a>
+and <a href="http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html"><strong>Giraffe.Contrib.FastCollectionView</strong></a>),
 but we are open to suggestions to make <strong>Giraffe</strong> as useful as possible to
 <strong>Backbone</strong> developers who want an extension library with few opinions.</p>
 <p>Is this framework for you? It depends. We feel <strong>Giraffe</strong> adds essential
 features to make you more productive with <strong>Backbone</strong>.</p>
 <h3 id='h-highlights'>Highlights</h3>
 <ul>
-<li><p><a href="http://barc.github.io/backbone.giraffe/routersAndAppEvents.html"><strong>Routes emit events</strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/routersAndAppEvents.html"><strong>Routes emit events</strong></a>
 instead of being tied to functions. This makes it extremely simple for a deeply
 nested view to act on a route.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/backbone.giraffe.html#Router"><strong>Reverse routes with arguments</strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#Router"><strong>Reverse routes with arguments</strong></a>
 provide a way to trigger routes in the application using app events without
 having to know a URL path.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/appEvents.html"><strong>Giraffe.App</strong></a> is a
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/appEvents.html"><strong>Giraffe.App</strong></a> is a
 special view that acts as an event hub to help your app communicate and respond
 to routes, and all <strong>Giraffe</strong> objects have convenient <code>appEvents</code> bindings
 inspired by <code>Backbone.View#events</code>.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/backbone.giraffe.html#View-attachTo"><strong><code>Giraffe.View#attachTo(someElement)</code></strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#View-attachTo"><strong><code>Giraffe.View#attachTo(someElement)</code></strong></a>
 allows views to move anywhere on the DOM without clobbering each other&#39;s events,
 and it automatically sets up parent-child relationships for memory management.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/lifecycleManagement.html"><strong>Lifecycle management</strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/lifecycleManagement.html"><strong>Lifecycle management</strong></a>
 mitigates memory leaks. It&#39;s automatic for nested views and can be used for any
 object with a <code>dispose</code> method via <code>Giraffe.View#addChild</code>.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/appInitialization.html"><strong>(A)sync app initialization</strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/appInitialization.html"><strong>(A)sync app initialization</strong></a>
 helps an app reach its ready state. For example, an app may need to wait for
 asynchronous bootstrap data or a websocket connection before starting.</p>
 </li>
-<li><p><a href="http://barc.github.io/backbone.giraffe/documentEvents.html"><strong>Declarative event handling</strong></a>
+<li><p><a href="http://ryanatkn.github.io/backbone.giraffe/documentEvents.html"><strong>Declarative event handling</strong></a>
 in markup provides simple one-way binding. (does not try to be <strong>Knockout</strong> or
 <strong>AngularJS</strong>)</p>
 </li>
 <li><p><a href="https://github.com/barc/backbone.giraffe/blob/master/src/backbone.giraffe.contrib.coffee"><strong>Optional Giraffe.Contrib</strong></a>
 extensions include a simple Controller class with <strong>Giraffe</strong>&#39;s lifecycle and <code>appEvents</code> features,
-a <a href="http://barc.github.io/backbone.giraffe/collectionView.html">CollectionView</a>
+a <a href="http://ryanatkn.github.io/backbone.giraffe/collectionView.html">CollectionView</a>
 that renders a collection with a view per model,
-and a <a href="http://barc.github.io/backbone.giraffe/fastCollectionView.html">FastCollectionView</a>
+and a <a href="http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html">FastCollectionView</a>
 that renders a collection with a single view
 <a href="http://jsperf.com/collection-views-in-giraffe-and-marionette/5">more efficiently than Giraffe.Contrib.CollectionView and Marionette.CollectionView</a>.</p>
 </li>
@@ -218,7 +218,7 @@ target object as an argument. Removed <code>disposeThis</code> as it&#39;s now r
 <h3 id='h-014'>0.1.4</h3>
 <ul>
 <li><p>Added the function <code>Giraffe.configure</code> which 
-<a href="http://barc.github.io/backbone.giraffe/backbone.giraffe.html#configure">mixes several Giraffe features</a>
+<a href="http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#configure">mixes several Giraffe features</a>
 into any object. Used in the constructors of all Giraffe objects.</p>
 </li>
 <li><p><code>omittedOptions</code> can be used to prevent <code>Giraffe.configure</code> from extending
