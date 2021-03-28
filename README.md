@@ -219,3 +219,9 @@ Suggestions and pull requests are welcome!
 Copyright (c) 2013 Barc Inc.
 
 See the file [LICENSE](https://github.com/barc/backbone.giraffe/blob/master/LICENSE) for copying permission.
+
+<p align="center">
+  <a href="https://barc.github.io/backbone.giraffe">
+    <img src="/dist/docs/img/backbone.giraffe.png" width="129" height="136">
+  </a>
+</p>
