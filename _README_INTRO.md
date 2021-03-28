@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[__Backbone.Giraffe__](http://barc.github.io/backbone.giraffe)
+[__Backbone.Giraffe__](http://ryanatkn.github.io/backbone.giraffe)
 is a light and flexible library that extends
 [__Backbone.js__](http://documentcloud.github.com/backbone/) to new heights.
 __Giraffe__'s goal is to follow the __Backbone__ philosophy
@@ -31,8 +31,8 @@ in this functionality via `Giraffe.configure`.
 
 ## Documentation
 
-Read the [__API docs__](http://barc.github.io/backbone.giraffe/backbone.giraffe.html) and
-check out our [__live examples__](http://barc.github.io/backbone.giraffe/viewBasics.html).
+Read the [__API docs__](http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html) and
+check out our [__live examples__](http://ryanatkn.github.io/backbone.giraffe/viewBasics.html).
 
 ## How Giraffe is Different
 
@@ -46,8 +46,8 @@ building upon __Backbone__ with a minimalist approach. For example, there is no
 concept of specialized containers like regions or layouts, as any view in
 __Giraffe__ can act as a parent of one or more child views. __Giraffe__ also
 has no CollectionView or ItemView
-(see [__Giraffe.Contrib.CollectionView__](http://barc.github.io/backbone.giraffe/collectionView.html)
-and [__Giraffe.Contrib.FastCollectionView__](http://barc.github.io/backbone.giraffe/fastCollectionView.html)),
+(see [__Giraffe.Contrib.CollectionView__](http://ryanatkn.github.io/backbone.giraffe/collectionView.html)
+and [__Giraffe.Contrib.FastCollectionView__](http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html)),
 but we are open to suggestions to make __Giraffe__ as useful as possible to
 __Backbone__ developers who want an extension library with few opinions.
 
@@ -56,39 +56,39 @@ features to make you more productive with __Backbone__.
 
 ### Highlights
 
-- [__Routes emit events__](http://barc.github.io/backbone.giraffe/routersAndAppEvents.html)
+- [__Routes emit events__](http://ryanatkn.github.io/backbone.giraffe/routersAndAppEvents.html)
 instead of being tied to functions. This makes it extremely simple for a deeply
 nested view to act on a route.
 
-- [__Reverse routes with arguments__](http://barc.github.io/backbone.giraffe/backbone.giraffe.html#Router)
+- [__Reverse routes with arguments__](http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#Router)
 provide a way to trigger routes in the application using app events without
 having to know a URL path.
 
-- [__Giraffe.App__](http://barc.github.io/backbone.giraffe/appEvents.html) is a
+- [__Giraffe.App__](http://ryanatkn.github.io/backbone.giraffe/appEvents.html) is a
 special view that acts as an event hub to help your app communicate and respond
 to routes, and all __Giraffe__ objects have convenient `appEvents` bindings
 inspired by `Backbone.View#events`.
 
-- [__`Giraffe.View#attachTo(someElement)`__](http://barc.github.io/backbone.giraffe/backbone.giraffe.html#View-attachTo)
+- [__`Giraffe.View#attachTo(someElement)`__](http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#View-attachTo)
 allows views to move anywhere on the DOM without clobbering each other's events,
 and it automatically sets up parent-child relationships for memory management.
 
-- [__Lifecycle management__](http://barc.github.io/backbone.giraffe/lifecycleManagement.html)
+- [__Lifecycle management__](http://ryanatkn.github.io/backbone.giraffe/lifecycleManagement.html)
 mitigates memory leaks. It's automatic for nested views and can be used for any
 object with a `dispose` method via `Giraffe.View#addChild`.
 
-- [__(A)sync app initialization__](http://barc.github.io/backbone.giraffe/appInitialization.html)
+- [__(A)sync app initialization__](http://ryanatkn.github.io/backbone.giraffe/appInitialization.html)
 helps an app reach its ready state. For example, an app may need to wait for
 asynchronous bootstrap data or a websocket connection before starting.
 
-- [__Declarative event handling__](http://barc.github.io/backbone.giraffe/documentEvents.html)
+- [__Declarative event handling__](http://ryanatkn.github.io/backbone.giraffe/documentEvents.html)
 in markup provides simple one-way binding. (does not try to be __Knockout__ or
 __AngularJS__)
 
 - [__Optional Giraffe.Contrib__](https://github.com/barc/backbone.giraffe/blob/master/src/backbone.giraffe.contrib.coffee)
 extensions include a simple Controller class with __Giraffe__'s lifecycle and `appEvents` features,
-a [CollectionView](http://barc.github.io/backbone.giraffe/collectionView.html)
+a [CollectionView](http://ryanatkn.github.io/backbone.giraffe/collectionView.html)
 that renders a collection with a view per model,
-and a [FastCollectionView](http://barc.github.io/backbone.giraffe/fastCollectionView.html)
+and a [FastCollectionView](http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html)
 that renders a collection with a single view
 [more efficiently than Giraffe.Contrib.CollectionView and Marionette.CollectionView](http://jsperf.com/collection-views-in-giraffe-and-marionette/5).

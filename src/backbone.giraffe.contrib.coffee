@@ -35,7 +35,7 @@
   * A __Controller__ is a simple evented class that can participate in appEvents.
   * It demonstrates the usage of `Giraffe.configure` which extends any function
   * instance with [features including lifecycle management, app events, and more.]
-  * (http://barc.github.io/backbone.giraffe/backbone.giraffe.html#configure)
+  * (http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#configure)
   *
   * @param {Object} options
   *

@@ -61,7 +61,7 @@
 ### 0.1.4
 
 - Added the function `Giraffe.configure` which 
-  [mixes several Giraffe features](http://barc.github.io/backbone.giraffe/backbone.giraffe.html#configure)
+  [mixes several Giraffe features](http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#configure)
   into any object. Used in the constructors of all Giraffe objects.
 
 - `omittedOptions` can be used to prevent `Giraffe.configure` from extending

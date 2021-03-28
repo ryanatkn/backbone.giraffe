@@ -1,4 +1,4 @@
-[![Backbone.Giraffe](https://raw.github.com/barc/backbone.giraffe/master/src/docs/img/logo.png)](http://barc.github.io/backbone.giraffe)
+[![Backbone.Giraffe](https://raw.github.com/barc/backbone.giraffe/master/src/docs/img/logo.png)](http://ryanatkn.github.io/backbone.giraffe)
 
 %include _README_INTRO.md
 
