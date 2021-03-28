@@ -2,12 +2,7 @@
 
 # Backbone.Giraffe
 
-## Notice
-
-Giraffe is currently in maintenance-only mode.
-Bugs will be fixed but otherwise development has been halted.
-If you are interested in becoming the maintainer of the project, please open an issue.
-We'd be happy to turn the reins over to someone who would like to continue its development!
+## 💀🕸️ rip backbone.giraffe 🦴️2013—2015🦒 ur docs rock 🕸️💀
 
 ## Introduction
 
