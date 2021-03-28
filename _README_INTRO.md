@@ -4,7 +4,7 @@
 
 [__Backbone.Giraffe__](http://ryanatkn.github.io/backbone.giraffe)
 is a light and flexible library that extends
-[__Backbone.js__](http://documentcloud.github.com/backbone/) to new heights.
+[__Backbone.js__](https://backbonejs.org/) to new heights.
 __Giraffe__'s goal is to follow the __Backbone__ philosophy
 to provide commonly needed features with few assumptions. It differs
 from other __Backbone__ libraries like __Marionette__ and __Chaplin__ in its
