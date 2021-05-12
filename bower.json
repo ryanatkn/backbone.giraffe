@@ -3,7 +3,7 @@
   "version": "0.2.8",
   "homepage": "https://github.com/barc/backbone.giraffe",
   "authors": [
-    "Ryan Atkinson <ryanatkn@gmail.com>"
+    "Ryan Atkinson <mail@ryanatkn.com>"
   ],
   "description": "A lightweight library that extends Backbone.js to new heights.",
   "main": "dist/backbone.giraffe.js",

@@ -15,7 +15,11 @@
     "type": "git",
     "url": "https://github.com/barc/backbone.giraffe.git"
   },
-  "author": "Ryan Atkinson <ryanatkn@gmail.com>",
+  "author": {
+    "name": "Ryan Atkinson",
+    "email": "mail@ryanatkn.com",
+    "url": "https://www.ryanatkn.com"
+  },
   "license": "MIT",
   "gitHead": "66b00448e9e26feea356d13f926624f1d904aaaf",
   "devDependencies": {
