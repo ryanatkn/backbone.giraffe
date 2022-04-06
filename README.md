@@ -2,7 +2,7 @@
 
 # Backbone.Giraffe
 
-## 💀🕸️ rip backbone.giraffe 🦴️2013—2015🦒 ur docs rock 🕸️💀
+## 💀🕸️ rip 🦴️backbone.giraffe🦒 2013—2015 🕸️💀
 
 ## Introduction
 
