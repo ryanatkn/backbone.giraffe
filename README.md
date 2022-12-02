@@ -9,7 +9,7 @@
 [__Backbone.Giraffe__](http://ryanatkn.github.io/backbone.giraffe)
 is a light and flexible library that extends
 [__Backbone.js__](https://backbonejs.org/) to new heights.
-__Giraffe__'s goal is to follow the Backbone philosophy
+__Giraffe__'s goal is to follow the __Backbone__ philosophy
 to provide commonly needed features with few assumptions. It differs
 from other Backbone libraries like __Marionette__ and __Chaplin__ in its
 reduced scope and size, and it takes a different approach to the problems of
