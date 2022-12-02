@@ -2,16 +2,16 @@
 
 # Backbone.Giraffe
 
-## 💀🕸️ rip 🦴️backbone.giraffe🦒 2013—2015 🕸️💀
+## 🕸️ rip 🦴️backbone.giraffe🦒 2013—2015 [🕸️🕷](https://spiderspace.org)
 
 ## Introduction
 
 [__Backbone.Giraffe__](http://ryanatkn.github.io/backbone.giraffe)
 is a light and flexible library that extends
 [__Backbone.js__](https://backbonejs.org/) to new heights.
-__Giraffe__'s goal is to follow the __Backbone__ philosophy
+__Giraffe__'s goal is to follow the Backbone philosophy
 to provide commonly needed features with few assumptions. It differs
-from other __Backbone__ libraries like __Marionette__ and __Chaplin__ in its
+from other Backbone libraries like __Marionette__ and __Chaplin__ in its
 reduced scope and size, and it takes a different approach to the problems of
 route handling, object lifecycles, event aggregation, and view management.
 
@@ -30,7 +30,7 @@ any object can listen for. It also has reverse routes to allow the construction
 of URLs using app events and arguments.
 
 - __Giraffe.Model__ and __Giraffe.Collection__ are thin wrappers that add
-__Giraffe__'s lifecycle management and app events. Any object can mix
+Giraffe's lifecycle management and app events. Any object can mix
 in this functionality via `Giraffe.configure`.
 
 ## Documentation
@@ -40,23 +40,23 @@ check out our [__live examples__](http://ryanatkn.github.io/backbone.giraffe/vie
 
 ## How Giraffe is Different
 
-__Giraffe__ was created by the needs of our team as we built
+Giraffe was created by the needs of our team as we built
 [__Barc__](http://barc.com). We tried many existing libraries but some did way too
 much, others added too many layers, and others performed poorly.
 
-__Giraffe__ does not have all the bells and whistles of the larger frameworks.
+Giraffe does not have all the bells and whistles of the larger frameworks.
 We found the effort to customize them for our needs was more effort than simply
-building upon __Backbone__ with a minimalist approach. For example, there is no
+building upon Backbone with a minimalist approach. For example, there is no
 concept of specialized containers like regions or layouts, as any view in
-__Giraffe__ can act as a parent of one or more child views. __Giraffe__ also
+Giraffe can act as a parent of one or more child views. Giraffe also
 has no CollectionView or ItemView
 (see [__Giraffe.Contrib.CollectionView__](http://ryanatkn.github.io/backbone.giraffe/collectionView.html)
 and [__Giraffe.Contrib.FastCollectionView__](http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html)),
-but we are open to suggestions to make __Giraffe__ as useful as possible to
-__Backbone__ developers who want an extension library with few opinions.
+but we are open to suggestions to make Giraffe as useful as possible to
+Backbone developers who want an extension library with few opinions.
 
-Is this framework for you? It depends. We feel __Giraffe__ adds essential
-features to make you more productive with __Backbone__.
+Is this framework for you? It depends. We feel Giraffe adds essential
+features to make you more productive with Backbone.
 
 ### Highlights
 
@@ -70,7 +70,7 @@ having to know a URL path.
 
 - [__Giraffe.App__](http://ryanatkn.github.io/backbone.giraffe/appEvents.html) is a
 special view that acts as an event hub to help your app communicate and respond
-to routes, and all __Giraffe__ objects have convenient `appEvents` bindings
+to routes, and all Giraffe objects have convenient `appEvents` bindings
 inspired by `Backbone.View#events`.
 
 - [__`Giraffe.View#attachTo(someElement)`__](http://ryanatkn.github.io/backbone.giraffe/backbone.giraffe.html#View-attachTo)
@@ -90,7 +90,7 @@ in markup provides simple one-way binding. (does not try to be __Knockout__ or
 __AngularJS__)
 
 - [__Optional Giraffe.Contrib__](https://github.com/barc/backbone.giraffe/blob/master/src/backbone.giraffe.contrib.coffee)
-extensions include a simple Controller class with __Giraffe__'s lifecycle and `appEvents` features,
+extensions include a simple Controller class with Giraffe's lifecycle and `appEvents` features,
 a [CollectionView](http://ryanatkn.github.io/backbone.giraffe/collectionView.html)
 that renders a collection with a view per model,
 and a [FastCollectionView](http://ryanatkn.github.io/backbone.giraffe/fastCollectionView.html)
