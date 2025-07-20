@@ -2,7 +2,11 @@
 
 # Backbone.Giraffe
 
-## 🕸️ rip 🦴️backbone.giraffe🦒 2013—2015 [🕸️🕷](https://spiderspace.org)
+### **!! ⮩** This is an archived fork of a project I was the main author of early in my career,
+### the original repo is [@barc/backbone.giraffe/](https://github.com/barc/backbone.giraffe/),
+### 🕸️ rip 🦒 2013—2015 🦴️
+
+<hr />
 
 ## Introduction
 
